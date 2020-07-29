@@ -162,6 +162,7 @@ address{
  }
 
 #sidebar-wrapper {
+    background-color: black;
   min-height: 100vh;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
@@ -172,7 +173,7 @@ address{
 #sidebar-wrapper .sidebar-heading {
 color: white;
   padding: 0.805rem 1.1rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 /*
@@ -221,7 +222,6 @@ color: white;
 
 .nav-pills-custom .nav-link {
     color: rgb(131, 98, 98);
-    background: rgb(238, 234, 234);
     position: relative;
 }
 
@@ -253,26 +253,3 @@ color: white;
     color: rgb(126, 78, 78);
 }
 
-.wrapper .sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid #bdb8d7;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
-
-.wrapper .sidebar ul li a{
-  color: #bdb8d7;
-  display: block;
-}
-
-.wrapper .sidebar ul li a .fas{
-  width: 25px;
-}
-
-.wrapper .sidebar ul li:hover{
-  background-color: #ffbc00;
-}
-    
-.wrapper .sidebar ul li:hover a{
-  color: #fff;
-}
