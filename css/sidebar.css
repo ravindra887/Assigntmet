@@ -1,0 +1,24 @@
+#sidebar-wrapper{
+  padding: 70px;
+  z-index: 1;
+  position: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  border: 2px solid red;
+  opacity: 0.9;
+}
+
+#page-content-wrapper{
+  margin: 70px;
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+  border: 5px solid green;
+
+}
+
+#wrappper.menuDisplayed #sidebar_wrapper{
+  width: 250px;
+
+}
