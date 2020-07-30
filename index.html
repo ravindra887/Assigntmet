@@ -36,6 +36,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <p style="margin-left: -20px; font-size:30px; padding-top: 10px; color: white;" >|</p>
+
+
+            <p style="padding-left: 15px; padding-top: 10px; font-size: 23px; ">Application</p>
 
 
 	    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -73,8 +77,20 @@
 
 	    <div class="border-right" style="background-color:black;" id="sidebar-wrapper">
 
-	      <div class="sidebar-heading"><i class="fa fa-bars" aria-hidden="true"></i>
-		  </div>
+      <ul>
+
+        <li><a href="#"><i class="fas fa-bars" style="color:white;"></i></a></li>
+      </ul>
+
+      <ul style="padding-top: 15px;">
+        <li><a href="#"><i class="fas fa-th" style="color:white;"></i></a></li>
+        <li><a href="#"><i class="fas fa-comment-alt" style="color:white;"></i></a></li>
+        <li><a href="#"><i class="fas fa-sort-amount-up" style="color:white;"></i></a></li>
+
+
+      </ul>
+
+
 
 
 	    </div>
@@ -94,17 +110,33 @@
 				    <li class="breadcrumb-item active" aria-current="page">Customer Information</li>
 				  </ol>
 				</nav>
+      </div>
 
+      <div class="container-fluid">
 			<div class="card "id="h11">
-				<div class="card-body">
-				<h5 class="font-weight-bold">ABCD Holdings Limited</h5>
-				<p>Nature of Business: Logistics</p>
-				</div>
-			</div>
-			</div>
+          <div class="d-flex bd-highlight mb-3">
+            <div class="mr-auto p-2 bd-highlight">
+              <h5 style="font-weight: bold;">ABCD Holdings Limited</h5>
+            </div>
+            <div class="p-2 bd-highlight"><p>App ID: OID021019-0032421</p></div>
+            <div class="p-2 bd-highlight"><p>Date: 01/02/2019</p>
+            </div>
+          </div>
 
+          <div class="d-flex bd-highlight" style="margin-top: -40px; margin-bottom: -20px;">
+            <div class="mr-auto p-2 bd-highlight">
+              <p>Nature of Bussines: Logistics </p>
+            </div>
 
-    <div class="container-fluid">
+            <div class="p-2 bd-highlight"><p>Branch: New Delhi</p></div>
+            <div class="p-2 bd-highlight"><p>Country: India</p>
+            </div>
+          </div>
+
+			</div>
+      </div>
+
+    <div class="container-fluid mt-4">
       <div class="row">
         <div class="col-md-2">
           <!-- Tabs nav -->
@@ -113,206 +145,263 @@
             <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
               aria-controls="v-pills-profile" aria-selected="false">
               <i class="far fa-2x fa-user-circle mr-3"></i>
-              <span class="" style="color:#795548">Basic Information</span></a>
+              <span class="" style="color: black">Basic Information</span></a>
 
             <a class="nav-link p-3" id="v-pills-details-tab" data-toggle="pill" href="#v-pills-details" role="tab"
               aria-controls="v-pills-details" aria-selected="false">
               <i class="fas fa-2x fa-comments mr-3"></i>
-              <span class="" style="color:#795548">Visit Details</span></a>
+              <span class="" style="color: black">Visit Details</span></a>
 
             <a class="nav-link p-3" id="v-pills-questions-tab" data-toggle="pill" href="#v-pills-questions" role="tab"
               aria-controls="v-pills-questions" aria-selected="false">
               <i class="fas fa-2x fa-file-alt mr-4"></i>
-              <span class="" style="color:#795548">Interview Questions</span></a>
+              <span class="" style="color: black">Interview Questions</span></a>
 
             <a class="nav-link p-3 active" id="v-pills-info-tab" data-toggle="pill" href="#v-pills-info" role="tab"
               aria-controls="v-pills-info" aria-selected="true">
               <i class="fas fa-2x fa-clipboard-list mr-4"></i>
-              <span class="" style="color:#795548">App Info</span></a>
+              <span class="" style="color: black">App Info</span></a>
 
             <a class="nav-link p-3" id="v-pills-documents-tab" data-toggle="pill" href="#v-pills-documents" role="tab"
               aria-controls="v-pills-documents" aria-selected="false">
               <i class="fas fa-2x fa-cloud-upload-alt mr-2"></i>
-              <span class="" style="color:#795548">Documents</span></a>
-          </div>
+              <span class="" style="color: black">Documents</span></a>          
+            </div>
         </div>
 
 
         <div class="col-md-10">
           <!-- Tabs content -->
-          <div class="tab-content" id="v-pills-tabContent" style="margin:1px;">
+          <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel"
-              aria-labelledby="v-pills-profile-tab" style="height: 318px; width: 1055px;">
+              aria-labelledby="v-pills-profile-tab">
               <h4 class="font-italic mb-4">Basic Information</h4>
               <p class="font-italic text-muted mb-2">ABCD</p>
             </div>
 
             <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-details" role="tabpanel"
-              aria-labelledby="v-pills-details-tab " style="height: 318px; width: width: 1055px;">
+              aria-labelledby="v-pills-details-tab ">
               <h4 class="font-italic mb-4">Visit Details</h4>
               <p class="font-italic text-muted mb-2">ABCD</p>
             </div>
 
             <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-questions" role="tabpanel"
-              aria-labelledby="v-pills-questions-tab" style="height: 318px; width: 1055px;">
+              aria-labelledby="v-pills-questions-tab">
               <h4 class="font-italic mb-4">Interview Questions</h4>
               <p class="font-italic text-muted mb-2">ABCD</p>
             </div>
 
             <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-info" role="tabpanel"
-              aria-labelledby="v-pills-info-tab" style="height: 318px; width: 1055px;">
+              aria-labelledby="v-pills-info-tab">
               <!-- <h4 class="font-italic mb-4">Confirm booking</h4> -->
               <p class="font-italic text-muted mb-2">
 
-                <div class="container1">
-                  <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                      <p style="margin-bottom: 0px;margin-top:-40px;">Start Date</p>
-                      <input type="date" style="margin-top: -50px;width: 300px;">
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <form>
+                          <div class="form-group">
+                              <label for="example-date-input" class="col-form-label">Strat Date</label>
+                              <div>
+                                <input class="form-control" type="date" value="2020-07-25" id="example-date-input">
+                              </div>
+                            </div>
+                        </form>
                     </div>
 
 
-                    <div class="col-md-4 col-lg-4">
-                      <p style="margin-bottom: 0px;margin-top:-40px;">End Date</p>
-                      <input type="date" style="margin-top: -50px;width: 300px;">
+                    <div class="col-sm-3">
+                        <form>
+                          <div class="form-group">
+                              <label for="example-date-input" class="col-form-label">End Date</label>
+                              <div>
+                                <input class="form-control" type="date" value="2020-07-25" id="example-date-input">
+                              </div>
+                            </div>
+                        </form>
                     </div>
 
-                    <div class="col-md-4 col-lg-4">
-
-                      <form>
-                        <p style="margin-bottom: 0px;margin-top:-40px;">Gender</p>
-                        <input type="radio" name="subject" value="maths"> Male
-                        <input type="radio" name="subject" value="physics"> Female
-                      </form>
+                    <div class="col-sm">
+                        <form>
+                          <div>
+                                <label for="form-check-laber" class="col-form-label">Gender</label>
+                          </div>
+                          <div class="form-check">
+                                  <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    Male
+                                  </label>
+                            </div>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                Female
+                              </label>
+                            </div>
+                        </form>
                     </div>
-                  </div>
+
                 </div>
                 
 
-                <div class="container2">
-                  <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                      <p1 style="margin-bottom:0px;padding:0px;margin-block-start: 10px;">Salutation </p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
+          <div class="row">
 
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
-                    </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Salutation</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
 
-                    <div class="col-md-4 col-lg-4">
-                      <p1 style="margin-bottom: 0px;">Dropdown</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
-                    </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Dropdown</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
-                    <div class="col-md-4 col-lg-4">
-                      <p style="margin-bottom: 0px;">Full Name</p>
-                      <input type="text" class="user">
-                    </div>
+            <div class="col-sm">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Full Name</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                   </div>
-                </div>
+                </form>
+            </div>
+
+            </div>
 
 
 
-                <div class="container " style="margin-left: -15px;">
-                  <div class="row">
-                    <div class="col-md-4 col-lg-4">
-                      <p1 style="margin-bottom: 0px;">Place</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
+        <div class="row">
 
-                    </div>
-                    <div class="col-md-4 col-lg-4" style="margin-left: 10px;">
-                      <p1 style="margin-bottom: 0px;">City</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2 col-lg-2">
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Place</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
-                      <p1 style="margin-bottom:0px;padding: 10px;">State</p1>
-                      <br>
-                      <select class="uidropdown" style="width:143px; margin-left: 10px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2 col-lg-2" style="margin-left: -10px;">
-                      <p1 style="margin-bottom:0px;padding: 20px;">Country</p1>
-                      <br>
-                      <select class="uidropdown" style="width:143px; margin-left: 20px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
 
-                    </div>
-                  </div>
-                </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Ciry</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
+
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">State</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
+
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label >Country</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
+            </div>
                 
-                <div class="container4">
-                  <div class="row">
-                    <div class="col-md-4 col-lg-4">
+        <div class="row">
+
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Business type</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
 
-                      <p1 style="margin-bottom: 0px;">Business Type</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Dropdown</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
-                    </div>
+            <div class="col-sm-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Dropdown</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option value="">Select</option>
+                          <option>1</option>
+                          <option>2</option>
+                        </select>
+                      </div>
+                </form>
+            </div>
 
-                    <div class="col-md-4 col-lg-4">
-                      <p1 style="margin-bottom: 0px;">Dropdown</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
+            </div>
 
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                      <p1 style="margin-bottom: 0px;">Dropdown</p1>
-                      <br>
-                      <select class="uidropdown" style="width:300px; margin-left: 0px; padding-top: 3px; padding-bottom: 3px;">
-                        <option value="">Select</option>
-                        <option value="0">A</option>
-                        <option value="0">B</option>
-                      </select>
-                    </div>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Zip Code</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                   </div>
-                </div>
-
-                
-                <p style="margin:1px;">Zip Code</p>
-                <input type="text" class="zip">
-
-
-              </p>
+                </form>
+            </div>
+        </div>
+      </p>
             </div>
 
             <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-documents" role="tabpanel"
-              aria-labelledby="v-pills-documents-tab" style="height: 318px; width: 1055px;">
+              aria-labelledby="v-pills-documents-tab">
               <h4 class="font-italic mb-4">Documents</h4>
               <p class="font-italic text-muted mb-2">ABCD</p>
             </div>
@@ -320,60 +409,24 @@
         </div>
       </div>
     </div>
-			</div>
 
-
-
-	<div class="row" id="myform1" style="display: none;">
-
-        <div class="col-sm-3" id="form1">
-            <form>
-              <div class="form-group">
-                  <label for="example-date-input" class="col-form-label">Strat Date</label>
-                  <div>
-                    <input class="form-control" type="date" value="2020-07-25" id="example-date-input">
-                  </div>
-                </div>
-            </form>
+    <!--form end-->
+    <div class="container-fluid" id="fin-btn">
+      <div class="d-flex bd-highlight mb-3">
+        <div class="mr-auto p-2 bd-highlight">
+          <button type="button" class="btn btn-secondary" style="margin-left: 290px">Back</button>
         </div>
-
-
-        <div class="col-sm-3">
-            <form>
-              <div class="form-group">
-                  <label for="example-date-input" class="col-form-label">End Date</label>
-                  <div>
-                    <input class="form-control" type="date" value="2020-07-25" id="example-date-input">
-                  </div>
-                </div>
-            </form>
-        </div>
-
-        <div class="col-sm">
-            <form>
-              <div>
-                    <label for="form-check-laber" class="col-form-label">Gender</label>
-              </div>
-              <div class="form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        Male
-                      </label>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    Female
-                  </label>
-                </div>
-            </form>
-        </div>
-
+        <div class="p-2 bd-highlight"><button type="button" class="btn btn-warning">Next</button></div>
+        <div class="p-2 bd-highlight"><button type="button" class="btn btn-warning">Save Info</button></div>
+      </div>
     </div>
 
-
+	</div>
 
 	</div>
+
+      </div>
+    </div>
     </div>
 
 

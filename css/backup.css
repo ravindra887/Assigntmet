@@ -25,7 +25,9 @@ a:hover {
     text-decoration: none;
 }
 
-
+ul {
+    list-style-type: none;
+}
 
 
 .dashboard-header {}
@@ -162,7 +164,8 @@ address{
  }
 
 #sidebar-wrapper {
-    background-color: black;
+  width: 55px;
+  background-color: black;
   min-height: 100vh;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
@@ -170,10 +173,28 @@ address{
   transition: margin .25s ease-out;
 }
 
-#sidebar-wrapper .sidebar-heading {
-color: white;
-  padding: 0.805rem 1.1rem;
-  font-size: 1.5rem;
+
+
+#sidebar-wrapper ul li{
+  font-size: 20px;
+  margin-left: -22px;
+  padding-top: 15px;
+
+}    
+
+#sidebar-wrapper ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+#sidebar-wrapper ul li a .fas{
+  width: 60px;
+}
+
+
+    
+#sidebar-wrapper ul li:hover a{
+  color: #fff;
 }
 
 /*
@@ -221,6 +242,7 @@ color: white;
 
 
 .nav-pills-custom .nav-link {
+    color: #black;
     color: rgb(131, 98, 98);
     position: relative;
 }
@@ -253,3 +275,19 @@ color: white;
     color: rgb(126, 78, 78);
 }
 
+#v-pills-tabContent{
+    margin-top: 20px;
+    width: 93.5rem;
+
+}
+#v-pills-tab{
+    color: black;
+}
+
+#fin-btn{
+    margin-top: 20px;
+}
+
+#h11{
+
+}
