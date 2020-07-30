@@ -187,15 +187,6 @@ address{
   display: block;
 }
 
-#sidebar-wrapper ul li a .fas{
-  width: 60px;
-}
-
-
-    
-#sidebar-wrapper ul li:hover a{
-  color: #fff;
-}
 
 /*
 #sidebar-wrapper .list-group {
@@ -242,14 +233,13 @@ address{
 
 
 .nav-pills-custom .nav-link {
-    color: #black;
-    color: rgb(131, 98, 98);
+    color: #76645A;
     position: relative;
 }
 
 .nav-pills-custom .nav-link.active {
     color: #ffbc00;
-    background:rgb(238, 234, 234);
+    background: #efeff6;
 }
 
 
